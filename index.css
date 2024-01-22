@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito:wght@200&display=swap");
+
 body {
   margin: 0;
+  padding: 0;
   line-height: normal;
+  overflow: hidden;
 }
 
 :root {
@@ -31,7 +35,8 @@ body {
 .heres-a-surprise-container {
   position: absolute;
   top: 2.13rem;
-  left: 33.94rem;
+  left: 35rem;
+  font-family: "EB Garamond", serif;
 }
 .applicable-on-all {
   position: absolute;
@@ -89,9 +94,9 @@ body {
   position: absolute;
   top: 20.56rem;
   left: 35.44rem;
-  background-color: var(--color-mistyrose);
+  /* background-color: var(--color-mistyrose); */
   width: 14.75rem;
-  height: 3.94rem;
+  /* height: 3.94rem; */
 }
 
 .copy-code {
