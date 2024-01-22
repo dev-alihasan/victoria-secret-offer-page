@@ -8,10 +8,6 @@ body {
 }
 
 :root {
-  /* fonts */
-  /* --font-istok-web: "Istok Web";
-  --font-inter: Inter; */
-
   /* Colors */
   --color-mistyrose: #fbdfd5;
   --color-white: #fff;
@@ -53,9 +49,9 @@ body {
   font-family: "Nunito", sans-serif;
 }
 .group-item {
-  position: absolute;
+  /* position: absolute;
   top: 0rem;
-  left: 0rem;
+  left: 0rem; */
   border-radius: 8.83px;
   background-color: rgba(0, 0, 0, 0);
   border: 1.8px dashed var(--color-mistyrose);
@@ -63,7 +59,7 @@ body {
   width: 16.55rem;
   height: 2.46rem;
 }
-.zxseifs98dgr {
+.copon-code {
   position: absolute;
   top: 0.56rem;
   left: 4.19rem;
@@ -109,25 +105,13 @@ body {
   border-radius: 2em;
   border: none;
   padding: 5px 20px;
+  cursor: pointer;
 }
 
 .copy-button {
   color: #000;
   background-color: rgba(51, 51, 51, 0.05);
   color: #333333;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  text-align: center;
-  transition: all 200ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
 .hailey-bieber-victorias-secret-icon {
