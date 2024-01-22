@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-istok-web: "Istok Web";
+  --font-inter: Inter;
+
+  /* Colors */
+  --color-mistyrose: #fbdfd5;
+  --color-white: #fff;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
+
+.group-child {
+  position: absolute;
+  top: 0rem;
+  left: 25.75rem;
+  border-radius: 0px var(--br-xl) var(--br-xl) 0px;
+  background-color: #902135;
+  width: 34.06rem;
+  height: 34.88rem;
+}
+.heres-a {
+  margin: 0;
+}
+.heres-a-surprise-container {
+  position: absolute;
+  top: 2.13rem;
+  left: 33.94rem;
+}
+.applicable-on-all {
+  position: absolute;
+  top: 13.75rem;
+  left: 32.94rem;
+  font-size: 1.25rem;
+}
+.offer-expires {
+  position: absolute;
+  top: 17.44rem;
+  left: 39.38rem;
+  font-size: 1.13rem;
+  font-family: var(--font-inter);
+}
+.group-item {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 8.83px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1.8px dashed var(--color-mistyrose);
+  box-sizing: border-box;
+  width: 16.55rem;
+  height: 2.46rem;
+}
+.zxseifs98dgr {
+  position: absolute;
+  top: 0.56rem;
+  left: 4.19rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.27rem;
+  height: 1.48rem;
+}
+.rectangle-group {
+  position: absolute;
+  top: 26.69rem;
+  left: 34.56rem;
+  width: 16.55rem;
+  height: 2.46rem;
+  font-size: 1.1rem;
+}
+.group-inner {
+  position: absolute;
+  top: 30.5rem;
+  left: 35.44rem;
+  border-radius: 17.74px;
+  background-color: var(--color-mistyrose);
+  width: 14.75rem;
+  height: 2.61rem;
+}
+.rectangle-div {
+  position: absolute;
+  top: 20.56rem;
+  left: 35.44rem;
+  background-color: var(--color-mistyrose);
+  width: 14.75rem;
+  height: 3.94rem;
+}
+
+.copy-code {
+  position: absolute;
+  top: 31.11rem;
+  left: 40.21rem;
+  font-size: 1.11rem;
+  text-transform: capitalize;
+  color: #000;
+}
+.hailey-bieber-victorias-secret-icon {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-xl) 0px 0px var(--br-xl);
+  width: 28.63rem;
+  height: 34.94rem;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: relative;
+  /* width: 100%;
+  height: 34.94rem; */
+  text-align: center;
+  font-size: 2.69rem;
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+  left: 15%;
+  top: 1em;
+}
