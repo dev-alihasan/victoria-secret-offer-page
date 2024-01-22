@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Indie+Flower&family=Nunito:wght@200&display=swap");
 
 body {
   margin: 0;
@@ -9,8 +9,8 @@ body {
 
 :root {
   /* fonts */
-  --font-istok-web: "Istok Web";
-  --font-inter: Inter;
+  /* --font-istok-web: "Istok Web";
+  --font-inter: Inter; */
 
   /* Colors */
   --color-mistyrose: #fbdfd5;
@@ -35,21 +35,22 @@ body {
 .heres-a-surprise-container {
   position: absolute;
   top: 2.13rem;
-  left: 35rem;
+  left: 36rem;
   font-family: "EB Garamond", serif;
 }
 .applicable-on-all {
   position: absolute;
   top: 13.75rem;
-  left: 32.94rem;
+  left: 34rem;
   font-size: 1.25rem;
+  font-family: "Nunito", sans-serif;
 }
 .offer-expires {
   position: absolute;
   top: 17.44rem;
   left: 39.38rem;
   font-size: 1.13rem;
-  font-family: var(--font-inter);
+  font-family: "Nunito", sans-serif;
 }
 .group-item {
   position: absolute;
@@ -94,9 +95,8 @@ body {
   position: absolute;
   top: 20.56rem;
   left: 35.44rem;
-  /* background-color: var(--color-mistyrose); */
+  font-family: "EB Garamond", serif;
   width: 14.75rem;
-  /* height: 3.94rem; */
 }
 
 .copy-code {
@@ -105,8 +105,31 @@ body {
   left: 40.21rem;
   font-size: 1.11rem;
   text-transform: capitalize;
-  color: #000;
+  font-family: "Indie Flower";
+  border-radius: 2em;
+  border: none;
+  padding: 5px 20px;
 }
+
+.copy-button {
+  color: #000;
+  background-color: rgba(51, 51, 51, 0.05);
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
 .hailey-bieber-victorias-secret-icon {
   position: absolute;
   top: 0rem;
@@ -118,8 +141,6 @@ body {
 }
 .rectangle-parent {
   position: relative;
-  /* width: 100%;
-  height: 34.94rem; */
   text-align: center;
   font-size: 2.69rem;
   color: var(--color-white);
