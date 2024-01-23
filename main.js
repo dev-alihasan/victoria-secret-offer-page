@@ -26,5 +26,5 @@ function timerCounter(seconds) {
   }, 1000);
 }
 
-// Set the timer for 1 hour (3600 seconds)
+
 timerCounter(3600);

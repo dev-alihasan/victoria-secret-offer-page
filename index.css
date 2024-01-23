@@ -49,9 +49,6 @@ body {
   font-family: "Nunito", sans-serif;
 }
 .group-item {
-  /* position: absolute;
-  top: 0rem;
-  left: 0rem; */
   border-radius: 8.83px;
   background-color: rgba(0, 0, 0, 0);
   border: 1.8px dashed var(--color-mistyrose);
